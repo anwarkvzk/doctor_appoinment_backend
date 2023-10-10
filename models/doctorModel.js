@@ -9,7 +9,7 @@ const doctorSchema = new mongoose.Schema(
       type: String,
       required: [true, "First Name is required"],
     },
-    lastname: {
+    lastName: {
       type: String,
       required: [true, "Last name is required"],
     },
